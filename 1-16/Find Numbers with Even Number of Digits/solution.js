@@ -3,21 +3,16 @@
  * @return {number}
  */
 var findNumbers = function(nums) {
-    var i, j, cnt = 0;     //Initialize variables    
-    for(i = 0; i < nums.length; i ++){
-        var cur = String(nums[i]);
-        
-        if(cur.length % 2 == 0)
-            cnt ++;
+    var total = 0;
+    var str;
+    for (var i = 0; i < nums.length; i++) {
+        str = String(nums[i]);
+        if (str.length % 2 == 0) {
+            total++;
+        }
     }
-    
-    return cnt;
-    nums.forEach((item,index)=>{
-        const cur = String
-    })
-    
+    return total;
 };
-
 
 // Test case
 // #1

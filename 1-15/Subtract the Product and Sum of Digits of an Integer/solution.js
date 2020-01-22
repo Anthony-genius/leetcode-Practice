@@ -7,8 +7,8 @@ var subtractProductAndSum = function(n) {
     var arr = String(n);
     var sum=0, mut=1;
     for (var i = 0; i < arr.length; i++) {
-        sum += Number(arr[i]);
-        mut *= Number(arr[i]);       
+        sum += arr[i];
+        mut *= arr[i];       
     }
-    return mut-sum
+    return mut - sum;
 };
