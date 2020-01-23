@@ -2,6 +2,8 @@
  * @param {number[]} nums
  * @return {number}
  */
+
+ //First Way
 var findNumbers = function(nums) {
     var total = 0;
     var str;
@@ -13,7 +15,19 @@ var findNumbers = function(nums) {
     }
     return total;
 };
-
+//Second Way
+var findNumbers = function(nums) {
+    
+    var str = nums.reduce((total,num)=>{
+    	const str = String(num);
+          if (str.length % 2 == 0) {
+            total++;
+          }
+      return total;
+    }, 0);
+    return str;
+    
+};
 // Test case
 // #1
 //     Input: nums = [12,345,2,6,7896]

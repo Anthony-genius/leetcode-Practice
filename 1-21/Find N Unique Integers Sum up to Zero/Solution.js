@@ -8,7 +8,7 @@ var sumZero = function(n) {
     for (var i=1; i<=num; i++) {
         res.push(i, -i)
     }
-    if (n%2 !==0) {
+    if (n % 2 !==0) {
         res.push(0)
     }
     return res;
