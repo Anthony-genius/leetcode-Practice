@@ -20,8 +20,8 @@ var diStringMatch = function(S) {
 ```
 ### Test case
 
-> Input: "IDID"
-> Output: [0,4,1,3,2]
+>Input: "IDID"
+>Output: [0,4,1,3,2]
 #
 >Input: "III"
 >Output: [0,1,2,3]
