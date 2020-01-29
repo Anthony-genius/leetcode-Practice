@@ -19,7 +19,7 @@ var diStringMatch = function(S) {
 };
 ```
 ### Test case
-
+#
 >Input: "IDID"
 >Output: [0,4,1,3,2]
 #
